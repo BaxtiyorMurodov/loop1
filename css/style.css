@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    
+}
+.site-main{
+    background-color: rgb(90, 105, 241);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-items{
+    width: 33%;
+    padding: 20px;
+    margin: 25px;
+    align-items: flex-start;
+    text-align: center;
+
+}
+.vau{
+    height: 364.5px;
+}
+.main-items:hover{
+    opacity: 0.8;
+    background-color:rgba(241, 210, 210, 0.521);
+    border-radius: 10px;
+}
+.main-img{
+    display: block;
+    margin: auto;
+}
+.main-title{
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: blue;
+    padding: 15px;;
+    font-weight: bold;
+}
+.main-text{
+    color:rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+.main-l{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(93, 93, 209);
+}
+.main-l::before{
+    content: "$";
+    margin-right: 5px;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+}
+.main-l::after{
+    content: "/ month";
+    font-size: 20px;
+
+}
